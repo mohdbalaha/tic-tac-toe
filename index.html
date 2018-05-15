@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  
+</head>
+
+<body>
+
+  <p id="turn">Turn: -</p>
+  <div id="board">
+    <div id="start">
+      <p>Choose:</p>
+      <input id="x-btn" class="btn" type="button" value="X">
+      <input id="o-btn" class="btn" type="button" value="O">
+    </div>
+    <table id="table">
+      <tr>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+      </tr>
+      <tr>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+      </tr>
+      <tr>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+      </tr>
+    </table>
+    <div id="end">
+      <p id="result">draw!</p>
+      <i id="restart-btn"  type="button" class="fas fa-redo"></i>
+    </div>
+  </div>
+  <br>
+  <footer>
+    <p>by: Mohamad Balaha</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
